@@ -3,7 +3,7 @@ div.grid-container {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 850px;
+    width: 832px;
 }
 
 div.grid-square {
