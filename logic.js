@@ -8,9 +8,9 @@ for (let i = 0; i < 16; i++) {
         console.log(j);
         gridArray[i][j] = document.createElement('div');
         gridArray[i][j].className = 'grid-square';
+        gridArray[i][j].addEventListener("mouseover", () => {
+            gridArray[i][j].style.backgroundColor = 'blue';
+        })
         gridContainer.appendChild(gridArray[i][j]);
     }
-    // gridArray[i] = document.createElement('div');
-
-
 }

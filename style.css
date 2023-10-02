@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
 div.grid-container {
     display: flex;
     justify-content: center;
