@@ -1,8 +1,10 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 98vh;
+    gap: 30px;
 }
 
 div.grid-container {
@@ -10,11 +12,12 @@ div.grid-container {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 832px;
+    flex-shrink: 0;
+    width: 850px;
+    height: auto;
 }
 
-div.grid-square {
-    width: 50px;
-    height: 50px;
-    border: 1px black solid;
+.break {
+    flex-basis: 100%;
+    height: 0;
 }
